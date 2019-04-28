@@ -1,7 +1,7 @@
 app.controller('ctrl',['$scope', '$http','$location', '$window', '$log', function($scope, $http, $location, $window, $log){
     
     //Declaracion de variables 
-    $scope.motos= {};
+    $scope.motos= [];
     $scope.fichaMoto ={};
 
     //Si la comunicacion es exitosa 
@@ -66,6 +66,11 @@ app.controller('ctrl',['$scope', '$http','$location', '$window', '$log', functio
     //Funcion ocultar pantalla completa
     $scope.ocultarPantallaCompleta = function(){
       $scope.pantallaCompleta = false;
+    }
+
+    //Funcion Ordenar
+    $scope.ordenar = function(info){
+        $scope.orden = info;      
     }
 
 }])

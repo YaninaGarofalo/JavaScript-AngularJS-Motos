@@ -2,6 +2,7 @@
     {
         "id": 123,
         "nombre": "DUE CLASSIC",
+        "modelo":"C",
         "descripcion":"Monocilíndrico 4 Tiempos",
         "imagenes":["img/DUE/01.png","img/DUE/02.jpg", "img/DUE/03.jpg", "img/DUE/04.jpg"],
         "motor":{
@@ -26,7 +27,8 @@
     },
     {
         "id": 456,
-        "nombre": "RX1",
+        "nombre": "B",        
+        "modelo":"Street",
         "descripcion":"Monocilíndrico 4 OHV",
         "imagenes":["img/RX/01.png","img/RX/02.jpg", "img/RX/03.jpg", "img/RX/04.jpg"],
         "motor":{
@@ -51,7 +53,8 @@
     },
     {
         "id": 789,
-        "nombre": "EXCLUSIVE EDIZIONE",
+        "nombre": "EXCLUSIVE EDIZIONE",        
+        "modelo":"A",
         "descripcion":"Monocilíndrico 4 Tiempos",
         "imagenes":["img/EDIZIONE/01.png","img/EDIZIONE/02.jpg", "img/EDIZIONE/03.jpg", "img/EDIZIONE/04.jpg"],
         "motor":{

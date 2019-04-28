@@ -13,9 +13,15 @@
           </div>
         </div>
       </div>
-  
+      <div class="d-flex justify-content-end">
+        <span class="d-block p-1 font-weight-bold pr-3">Ordear por: </span>
+        <div class="btn-group"  role="group">
+          <button type="button" class="btn btn-dark" ng-click="ordenar('nombre')">Nombre</button>
+          <button type="button" class="btn btn-dark" ng-click="ordenar('modelo')">Modelo</button>
+        </div>
+      </div>
       <div class="row m-5">
-          <div class="col-md-4 media" ng-repeat="moto in motos">
+          <div class="col-md-4 media" ng-repeat="moto in motos | orderBy: orden ">
             <div class="media-body">
                 <div class="mascara">
                   <img ng-src="{{moto.imagenes[1]}}" alt="">

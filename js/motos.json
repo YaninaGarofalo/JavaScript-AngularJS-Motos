@@ -27,8 +27,8 @@
     },
     {
         "id": 456,
-        "nombre": "B",        
-        "modelo":"Street",
+        "nombre": "RX",        
+        "modelo":"B",
         "descripcion":"Monocilíndrico 4 OHV",
         "imagenes":["img/RX/01.png","img/RX/02.jpg", "img/RX/03.jpg", "img/RX/04.jpg"],
         "motor":{
